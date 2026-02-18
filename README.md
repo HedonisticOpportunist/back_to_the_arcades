@@ -5,5 +5,6 @@ This project outlines a museum exhibition exploring the history of arcade machin
 ## References
 
 Not, E., Cavada, D., Maule, S., Pisetti, A., & Venturini, A. (2019). Digital augmentation of historical objects through tangible interaction. ACM Journal on Computing and Cultural Heritage, 12(3), Article 18. https://doi.org/10.1145/329776
+
 Retro Gamer. (2016). Retro Gamer book of arcade classics (2nd ed.). Imagine Publishing.
 
