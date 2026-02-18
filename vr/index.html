@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VR Arcade</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+
+  <body>
+    <!-- Injected header-->
+    <div id="header"></div>
+    <script>
+      fetch("../../header/header.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("header").innerHTML = html;
+        });
+    </script>
+    <!-- Injected footer -->
+    <div id="footer"></div>
+    <script>
+      fetch("../../footer/footer.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("footer").innerHTML = html;
+        });
+    </script>
+  </body>
+</html>

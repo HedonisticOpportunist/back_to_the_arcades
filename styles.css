@@ -1,0 +1,131 @@
+:root,
+[data-theme="light"],
+[data-theme="dark"] {
+  --pico-background-color: #6a0dad;
+  --pico-color: #00ffcc;
+}
+
+body {
+  background-color: var(--pico-background-color);
+  color: var(--pico-color);
+  padding-top: 2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Header style */
+.arcade-header {
+  background: #3b0066;
+  color: #00ffcc;
+  padding: 1rem 0 2rem;
+  text-align: center;
+  box-shadow: 0 0 20px #00ffcc;
+  margin-bottom: 2rem;
+}
+
+.arcade-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.arcade-image {
+  width: 160px;
+  height: auto;
+  filter: drop-shadow(0 0 10px #00ffcc);
+}
+
+.arcade-header h1 {
+  font-family: "Press Start 2P", monospace;
+  font-size: 1.4rem;
+  margin: 0;
+  text-shadow: 0 0 8px #00ffcc;
+}
+
+.arcade-header nav {
+  display: block;
+  width: 100%;
+}
+
+.arcade-header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0;
+  margin: 1.5rem 0 0;
+  list-style: none;
+}
+
+.arcade-header nav a {
+  color: #00ffcc;
+  font-weight: bold;
+  text-shadow: 0 0 6px #00ffcc;
+  display: inline-block;
+  text-align: center;
+}
+
+.arcade-header nav li {
+  display: block;
+  text-align: center;
+}
+
+.arcade-header nav a:hover {
+  color: white;
+  text-shadow: 0 0 10px white;
+}
+
+/* Footer style */
+.arcade-footer {
+  background: #3b0066;
+  color: #00ffcc;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  box-shadow: 0 0 20px #00ffcc;
+  font-family: "Press Start 2P", monospace;
+}
+
+.arcade-footer .tagline {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 6px #00ffcc;
+}
+
+.arcade-footer nav ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 1.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.arcade-footer nav a {
+  color: #00ffcc;
+  text-shadow: 0 0 6px #00ffcc;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.arcade-footer nav a:hover {
+  color: white;
+  text-shadow: 0 0 10px white;
+}
+
+.arcade-footer .credits {
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  opacity: 0.9;
+}
+
+.arcade-footer .copyright {
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+  opacity: 0.7;
+}

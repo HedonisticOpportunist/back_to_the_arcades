@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Back to the Arcades 🕹️👾</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Injected header -->
+    <div id="header"></div>
+    <script>
+      fetch("../header/header.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("header").innerHTML = html;
+        });
+    </script>
+    <main class="container">
+      <h1>Welcome ... 🕹️👻👾👻</h1>
+      <p>
+        Welcome to the digital exhibition celebrating the history and culture of
+        arcade gaming, where disco may be dead, but the thrills are not lurking
+        in the dark, but in the games we have to offer!
+      </p>
+      <p>
+        Step into a neon-lit world full of retro fun, and don't be afraid of any
+        nostalgic ghosts!👻
+      </p>
+      <p>
+        Here you’ll find no gremlins, but a treasure trove of interactive
+        retro-inspired mini-games, a VR experience that lets you go back in
+        time, and an interactive video!
+      </p>
+    </main>
+    <!-- Injected footer -->
+    <div id="footer"></div>
+    <script>
+      fetch("../footer/footer.html")
+        .then((response) => response.text())
+        .then((html) => {
+          document.getElementById("footer").innerHTML = html;
+        });
+    </script>
+  </body>
+</html>
