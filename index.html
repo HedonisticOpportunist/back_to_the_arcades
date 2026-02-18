@@ -15,7 +15,7 @@
     <!-- Injected header -->
     <div id="header"></div>
     <script>
-      fetch("../header/header.html")
+      fetch("header/header.html")
         .then((response) => response.text())
         .then((html) => {
           document.getElementById("header").innerHTML = html;
@@ -41,7 +41,7 @@
     <!-- Injected footer -->
     <div id="footer"></div>
     <script>
-      fetch("../footer/footer.html")
+      fetch("footer/footer.html")
         .then((response) => response.text())
         .then((html) => {
           document.getElementById("footer").innerHTML = html;
@@ -49,3 +49,4 @@
     </script>
   </body>
 </html>
+
