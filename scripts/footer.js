@@ -4,3 +4,4 @@ function setCurrentYear() {
     yearSpan.textContent = new Date().getFullYear();
   }
 }
+setCurrentYear();
