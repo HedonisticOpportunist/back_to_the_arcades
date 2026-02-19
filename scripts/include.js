@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Load footer.js AFTER footer HTML is in the DOM
         const script = document.createElement("script");
-        script.src = "../scripts/footer.js";
+        script.src = "../scripts/footer.js?v=" + Date.now();
         document.body.appendChild(script);
       });
   }
