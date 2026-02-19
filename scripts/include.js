@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // Inject header
   const header = document.getElementById("header");
   if (header) {
-    fetch("../header/header.html")
-      .then((res) => res.text())
-      .then((html) => {
+    fetch("/back_to_the_arcades/header/header.html")
+      .then(res => res.text())
+      .then(html => {
         header.innerHTML = html;
       });
   }
@@ -12,14 +12,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // Inject footer
   const footer = document.getElementById("footer");
   if (footer) {
-    fetch("../footer/footer.html")
-      .then((res) => res.text())
-      .then((html) => {
+    fetch("/back_to_the_arcades/footer/footer.html")
+      .then(res => res.text())
+      .then(html => {
         footer.innerHTML = html;
 
-        // Load footer.js AFTER footer HTML is in the DOM
         const script = document.createElement("script");
-        script.src = "../scripts/footer.js?v=" + Date.now();
+        script.src = "/back_to_the_arcades/scripts/footer.js?v=" + Date.now();
         document.body.appendChild(script);
       });
   }
