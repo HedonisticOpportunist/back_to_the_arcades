@@ -8,3 +8,4 @@ Not, E., Cavada, D., Maule, S., Pisetti, A., & Venturini, A. (2019). Digital aug
 
 Retro Gamer. (2016). Retro Gamer book of arcade classics (2nd ed.). Imagine Publishing.
 
+<img src="/resources/ai_graffiti_cat.png" alt="Graffiti Cat" width="400" height="400">
