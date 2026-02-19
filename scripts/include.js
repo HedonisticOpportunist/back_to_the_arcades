@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Inject footer
   const footer = document.getElementById("footer");
   if (footer) {
-    fetch("back_to_the_arcades/footer/footer.html")
+    fetch("/back_to_the_arcades/footer/footer.html")
       .then((res) => res.text())
       .then((html) => {
         footer.innerHTML = html;
@@ -21,3 +21,4 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   }
 });
+
