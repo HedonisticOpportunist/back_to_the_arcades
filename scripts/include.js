@@ -16,8 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((html) => {
         footer.innerHTML = html;
         const script = document.createElement("script");
-        script.src = "../scripts/footer.js";
+        script.src = "footer.js";
         document.body.appendChild(script);
       });
   }
 });
+
