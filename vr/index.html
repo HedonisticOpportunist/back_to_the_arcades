@@ -13,27 +13,8 @@
   </head>
 
   <body>
-    <!-- Injected header -->
     <div id="header"></div>
-    <script>
-      fetch('../header/header.html')
-        .then(response => response.text())
-        .then(html => {
-          document.getElementById('header').innerHTML = html
-        })
-    </script>
-
-    <!-- Page content goes here -->
-
-    <!-- Injected footer -->
     <div id="footer"></div>
-    <script>
-      fetch('../footer/footer.html')
-        .then(response => response.text())
-        .then(html => {
-          document.getElementById('footer').innerHTML = html
-        })
-    </script>
+    <script src="../scripts/include.js"></script>
   </body>
 </html>
-
