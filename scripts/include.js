@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
         header.innerHTML = html;
       });
   }
+
   // Inject footer
   const footer = document.getElementById("footer");
   if (footer) {
@@ -15,11 +16,11 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((res) => res.text())
       .then((html) => {
         footer.innerHTML = html;
+
+        // Load footer.js AFTER footer HTML is in the DOM
         const script = document.createElement("script");
         script.src = "../scripts/footer.js";
         document.body.appendChild(script);
       });
   }
 });
-
-
