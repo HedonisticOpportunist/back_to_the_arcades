@@ -1,0 +1,11 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  color: aquamarine;
+  font-family: "Press Start 2P", cursive;
+  background: #b3fff0;
+}
+canvas {
+  display: block;
+}
