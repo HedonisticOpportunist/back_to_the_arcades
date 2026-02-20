@@ -4,44 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arcade Mini-Game</title>
+
+    <!-- PicoCSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
     />
+
+    <!-- Custom styles -->
     <link rel="stylesheet" href="../styles.css" />
   </head>
 
   <body>
     <!-- Header injection -->
     <div id="header"></div>
+
     <main class="container">
-      <h1>Play Some Games!👾⋆˚☆˖°👾</h1>
-      <p>Welcome to our collection of feline-centred mini games!</p>
-      <p>
-        Come and play with us — not forever and forever, but for so long as it’s
-        entertaining.
-      </p>
-      <br />
-      <a
-        href="https://hedonisticopportunist.itch.io/hungry-space-cat"
-        role="button"
-        class="outline contrast"
-      >
-        Hungry Space Cat on itchi.io 𖠌
-      </a>
-      <hr />
-      <br />
-      <a
-        href="https://space-cats.vercel.app/games"
-        role="button"
-        class="outline contrast"
-      >
-        More Space Cat Games on GitHub 𖠌
-      </a>
-      <hr />
+      <h1>Play Some Games! 👾⋆˚☆˖°👾</h1>
+
+      <section>
+        <p>Welcome to our collection of feline‑centred mini games!</p>
+        <p>
+          Come and play with us — not forever and forever, but for as long as it
+          stays entertaining.
+        </p>
+        <p>
+          The games open in a new window, and you'll have to hit the return
+          button to come back here. Don’t worry, we’ll be waiting for you.
+        </p>
+      </section>
+
+      <section class="grid">
+        <a
+          href="../mini_game/index.html"
+          role="button"
+          class="outline contrast"
+        >
+          Our Mini Arcade Game 𖠌
+        </a>
+
+        <a
+          href="https://hedonisticopportunist.itch.io/hungry-space-cat"
+          role="button"
+          class="outline contrast"
+          rel="noopener noreferrer"
+        >
+          Hungry Space Cat on itch.io 𖠌
+        </a>
+
+        <a
+          href="https://space-cats.vercel.app/games"
+          role="button"
+          class="outline contrast"
+          rel="noopener noreferrer"
+        >
+          More Space Cat Games on GitHub 𖠌
+        </a>
+      </section>
     </main>
+
     <!-- Footer injection -->
     <div id="footer"></div>
+
     <!-- Include script -->
     <script src="../scripts/include.js"></script>
   </body>
