@@ -6,12 +6,18 @@ body {
   font-family: "Press Start 2P", cursive;
   background: #b3fff0;
 }
+
 canvas {
   display: block;
 }
 
 .btn-grad {
-  background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+  background-image: linear-gradient(
+    to right,
+    #314755 0%,
+    #26a0da 51%,
+    #314755 100%
+  );
 }
 
 .btn-grad {
@@ -24,7 +30,7 @@ canvas {
   color: white;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
-  display: block;
+  display: inline-block; /* FIXED: prevents full-width stretching */
   outline: none;
   border: none;
 }
