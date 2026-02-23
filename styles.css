@@ -1,9 +1,8 @@
 :root,
 [data-theme="light"],
 [data-theme="dark"] {
-  --pico-background-color: #6a0dad;
-  --pico-color: #00ffcc;
-}
+  --pico-background-color: #4b0082; 
+  --pico-color: #e0fff7;
 
 body {
   background-color: var(--pico-background-color);
@@ -17,8 +16,8 @@ ul li {
 
 /* Header style */
 .arcade-header {
-  background: #3b0066;
-  color: #00ffcc;
+  background: #2d0047; /* Darker header for contrast */
+  color: #e0fff7;
   padding: 1rem 0 2rem;
   text-align: center;
   box-shadow: 0 0 20px #00ffcc;
@@ -62,7 +61,7 @@ ul li {
 }
 
 .arcade-header nav a {
-  color: #00ffcc;
+  color: #aaffee; /* Higher contrast link color */
   font-weight: bold;
   text-shadow: 0 0 6px #00ffcc;
   display: inline-block;
@@ -81,8 +80,8 @@ ul li {
 
 /* Footer style */
 .arcade-footer {
-  background: #3b0066;
-  color: #00ffcc;
+  background: #2d0047;
+  color: #e0fff7;
   text-align: center;
   padding: 2rem 1rem;
   margin-top: 3rem;
@@ -107,7 +106,7 @@ ul li {
 }
 
 .arcade-footer nav a {
-  color: #00ffcc;
+  color: #aaffee;
   text-shadow: 0 0 6px #00ffcc;
   font-size: 0.8rem;
   text-align: center;
