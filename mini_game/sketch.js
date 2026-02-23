@@ -11,7 +11,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(400, 400);
 }
 
 function draw() {
@@ -68,3 +68,4 @@ function keyPressed() {
   if (keyCode === UP_ARROW) player.y -= 50;
   if (keyCode === DOWN_ARROW) player.y += 50;
 }
+
